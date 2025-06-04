@@ -54,14 +54,14 @@ class MyApp extends StatelessWidget {
                 width: 150.0,
                 color: Colors.white54,
               ),
-              Container(
-                margin: EdgeInsets.only(top: 20.0, left: 20.0),
-                height: 50.0,
-                width: 390.0,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(30.0),
-                ),
+              Card(
+                margin: EdgeInsets.only(top: 30.0, left: 25.0, right: 20.0),
+                //height: 50.0,
+                //width: 390.0,
+                //decoration: BoxDecoration(
+                  //color: Colors.white,
+                  //borderRadius: BorderRadius.circular(30.0),
+                //),
                 child: Row(
                   children: <Widget>[
                     Padding(
@@ -88,14 +88,14 @@ class MyApp extends StatelessWidget {
                 ),
                 SizedBox(height: 20),
 
-                Container(
-                  margin: EdgeInsets.only(top: 20.0, left: 20.0),
-                  height: 50.0,
-                  width: 390.0,
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(30.0),
-                  ),
+                Card(
+                  margin: EdgeInsets.only(top: 15.0, left: 25.0, right: 20.0),
+                  //height: 50.0,
+                  //width: 390.0,
+                  //decoration: BoxDecoration(
+                    //color: Colors.white,
+                    //borderRadius: BorderRadius.circular(30.0),
+                  //),
                   child: Row(
                     children: <Widget>[
                       Padding(
